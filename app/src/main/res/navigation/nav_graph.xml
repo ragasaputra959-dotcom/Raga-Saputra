@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.siakad_ui.fragments.HomeFragment"
+        android:title="Home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_jadwal"
+        android:name="com.example.siakad_ui.fragments.JadwalFragment"
+        android:title="Jadwal"
+        tools:layout="@layout/fragment_jadwal" />
+
+    <fragment
+        android:id="@+id/navigation_pengumuman"
+        android:name="com.example.siakad_ui.fragments.PengumumanFragment"
+        android:title="Pengumuman"
+        tools:layout="@layout/fragment_pengumuman" />
+
+    <fragment
+        android:id="@+id/navigation_dosen"
+        android:name="com.example.siakad_ui.fragments.DosenFragment"
+        android:title="Dosen"
+        tools:layout="@layout/fragment_dosen" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.siakad_ui.fragments.ProfileFragment"
+        android:title="Profile"
+        tools:layout="@layout/fragment_profile" />
+        
+    <fragment
+        android:id="@+id/navigation_krs"
+        android:name="com.example.siakad_ui.fragments.KrsFragment"
+        android:title="KRS"
+        tools:layout="@layout/fragment_krs" />
+        
+    <fragment
+        android:id="@+id/navigation_khs"
+        android:name="com.example.siakad_ui.fragments.KhsFragment"
+        android:title="KHS"
+        tools:layout="@layout/fragment_khs" />
+        
+    <fragment
+        android:id="@+id/navigation_info"
+        android:name="com.example.siakad_ui.fragments.InfoFragment"
+        android:title="Informasi"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>

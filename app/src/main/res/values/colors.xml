@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Warna Utama & Sekunder (Dominan Ungu Aesthetic) -->
+    <color name="primary">#7C3AED</color> <!-- Soft Vibrant Purple -->
+    <color name="primary_dark">#5B21B6</color> <!-- Deep Purple -->
+    <color name="primary_light">#EDE9FE</color> <!-- Lavender Tint -->
+    <color name="accent">#A78BFA</color> <!-- Soft Lavender -->
+
+    <!-- Warna Netral & Teks (Hint of Purple) -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#1E1B4B</color> <!-- Deep Navy Purple (More aesthetic than black) -->
+    <color name="grey_50">#FBFBFE</color>
+    <color name="grey_100">#F5F3FF</color> <!-- Background with purple tint -->
+    <color name="grey_200">#DDD6FE</color>
+    <color name="grey_600">#6D6A9C</color> <!-- Muted purple grey for secondary text -->
+    <color name="grey_800">#312E81</color> <!-- Dark Purple for headers -->
+
+    <!-- Warna Feedback Aesthetic -->
+    <color name="error">#FDA4AF</color> <!-- Pastel Red/Pink -->
+    <color name="success">#6EE7B7</color> <!-- Pastel Green -->
+    <color name="warning">#FDBA74</color> <!-- Pastel Orange -->
+
+    <!-- Backgrounds Aesthetic -->
+    <color name="background_light">#F5F3FF</color>
+    <color name="card_background">#FFFFFF</color>
+</resources>
